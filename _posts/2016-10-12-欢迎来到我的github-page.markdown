@@ -23,7 +23,8 @@ gem install jekyll bundler
 
 运行：
 ```
-bundle exec jekyll serve```
+bundle exec jekyll serve
+```
 
 ```上传到github pages```
 
