@@ -10,16 +10,24 @@ tags: [github pages]
 挑了一个*jekyll* 主题 [jekyll-uno](https://github.com/joshgerdes/jekyll-uno)。下载并部署到本地开始折腾。
 安装Ruby：由于墙的原因，可能需要淘宝镜像
 
-```$ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+```
+$ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
 $ gem sources -l
-*** CURRENT SOURCES ***```
-
-安装bundler：```gem install jekyll bundler```
-
-运行：```bundle exec jekyll serve```
+*** CURRENT SOURCES ***
 ```
-上传到github pages
+
+安装bundler：
 ```
+gem install jekyll bundler
+```
+
+运行：
+```
+bundle exec jekyll serve```
+
+```上传到github pages```
+
+
 生成ssh key并添加到github
 ```
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
